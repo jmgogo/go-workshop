@@ -1,0 +1,33 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/go .
+{
+	"name": "Go",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/go:2-1.25-trixie",
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "go version",
+	// Configure tool-specific properties.
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"golang.go", // Go development - official Go team extension with language support, debugging, testing
+				"usernamehh.errorlens", // Error visualization - shows errors/warnings inline in code
+				"eamodio.gitlens", // Git enhancement - blame annotations, commit history, repository insights
+				"aaron-bond.better-comments", // Comment enhancement - color-codes different comment types
+				"premparihar.gotestexplorer", // Test visualization - UI for running and viewing Go tests
+				"redhat.vscode-yaml", // YAML support - syntax highlighting, validation for configs
+				"yzhang.markdown-all-in-one", // Markdown enhancement - preview, shortcuts, table of contents
+				"IBM.output-colorizer" // Output colorizer - colorizes terminal output for better readability
+			],
+			"settings": {
+				"go.useLanguageServer": true
+			}
+		}
+	}
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
