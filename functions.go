@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"packages/data"
+)
 
-func printData(data string) {
-	fmt.Println(data)
+func printData(message string) {
+	fmt.Println(message)
+	fmt.Println("Today is " + data.Today)
 }
