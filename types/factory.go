@@ -1,0 +1,5 @@
+package types
+
+func NewUser(name, email string, age int) User {
+	return User{Name: name, Email: email, Age: age}
+}
