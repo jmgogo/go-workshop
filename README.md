@@ -44,3 +44,9 @@ For more information on devcontainers please visit: https://code.visualstudio.co
 
 ### read_write
 - Demonstrates basic read and write utilities from the os standard library in Go.
+
+### type_definitions
+- Demonstrate creation of type aliases, custom types, structs, type embedding, factories, and interfaces in go
+
+### go_routines
+- Demonstrates the use of goroutines for multi-threaded applications and channels for communication and synchronization between go routines.
