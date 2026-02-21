@@ -56,3 +56,6 @@ For more information on devcontainers please visit: https://code.visualstudio.co
 
 ### wait_groups
 - Expands on the api_client branch to demonstrate the creation of concurrent threads for api requests and synchronization with wait groups.
+
+### testing
+- Expands on the wait_groups branch with an example of how to run tests using the built-in go testing library.
