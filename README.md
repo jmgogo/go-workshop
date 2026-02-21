@@ -53,3 +53,6 @@ For more information on devcontainers please visit: https://code.visualstudio.co
 
 ### api_client
 - Demonstrates the creation of an api client to fetch json data over http
+
+### wait_groups
+- Expands on the api_client branch to demonstrate the creation of concurrent threads for api requests and synchronization with wait groups.
