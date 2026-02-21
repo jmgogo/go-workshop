@@ -50,3 +50,6 @@ For more information on devcontainers please visit: https://code.visualstudio.co
 
 ### go_routines
 - Demonstrates the use of goroutines for multi-threaded applications and channels for communication and synchronization between go routines.
+
+### api_client
+- Demonstrates the creation of an api client to fetch json data over http
