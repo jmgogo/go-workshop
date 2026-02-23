@@ -59,3 +59,6 @@ For more information on devcontainers please visit: https://code.visualstudio.co
 
 ### testing
 - Expands on the wait_groups branch with an example of how to run tests using the built-in go testing library.
+
+### http_server
+- Demonstrates the creation of an HTTP server with go templates for server-side rendering, and how to create route handlers
