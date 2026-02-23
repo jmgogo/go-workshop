@@ -1,6 +1,7 @@
 package main
 
 import (
+	"http_server/api"
 	"http_server/data"
 	"net/http"
 	"text/template"
@@ -30,6 +31,8 @@ func main() {
 	server := http.NewServeMux()
 	server.HandleFunc("/hello", handleHello)
 	server.HandleFunc("/template", handleTemplate)
+	server.HandleFunc("/api/exhibitions", api.Get)
+	server.HandleFunc("/api/exhibitions/new", api.Post)
 
 	fs := http.FileServer(http.Dir("./public"))
 	server.Handle("/", fs)
