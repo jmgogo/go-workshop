@@ -23,7 +23,8 @@
 				"premparihar.gotestexplorer", // Test visualization - UI for running and viewing Go tests
 				"redhat.vscode-yaml", // YAML support - syntax highlighting, validation for configs
 				"yzhang.markdown-all-in-one", // Markdown enhancement - preview, shortcuts, table of contents
-				"IBM.output-colorizer" // Output colorizer - colorizes terminal output for better readability
+				"IBM.output-colorizer", // Output colorizer - colorizes terminal output for better readability
+				"jinliming2.vscode-go-template" // Go template support - syntax highlighting and snippets for Go templates
 			],
 			"settings": {
 				"go.useLanguageServer": true
